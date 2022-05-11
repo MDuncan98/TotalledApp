@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63168D9727F726FB006DAD81 /* TotalledApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63168D8727F726F8006DAD81 /* TotalledApp.swift */; };
+		63168D9827F726FB006DAD81 /* TotalledApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63168D8727F726F8006DAD81 /* TotalledApp.swift */; };
+		63168D9927F726FB006DAD81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63168D8827F726F8006DAD81 /* ContentView.swift */; };
+		63168D9A27F726FB006DAD81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63168D8827F726F8006DAD81 /* ContentView.swift */; };
+		63168D9B27F726FB006DAD81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63168D8927F726FB006DAD81 /* Assets.xcassets */; };
+		63168D9C27F726FB006DAD81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63168D8927F726FB006DAD81 /* Assets.xcassets */; };
+		63168DA627F73244006DAD81 /* SingleGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63168DA527F73244006DAD81 /* SingleGameView.swift */; };
+		63168DA727F73244006DAD81 /* SingleGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63168DA527F73244006DAD81 /* SingleGameView.swift */; };
+		63168DA927F7519E006DAD81 /* ProfilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63168DA827F7519E006DAD81 /* ProfilesView.swift */; };
+		63168DAA27F7519E006DAD81 /* ProfilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63168DA827F7519E006DAD81 /* ProfilesView.swift */; };
+		63168DAC27F751F4006DAD81 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63168DAB27F751F4006DAD81 /* StatsView.swift */; };
+		63168DAD27F751F4006DAD81 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63168DAB27F751F4006DAD81 /* StatsView.swift */; };
+		6323F54A28181F310059A1EC /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6323F54928181F310059A1EC /* Frame.swift */; };
+		63540B572805C5E800862CEF /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63540B562805C5E800862CEF /* PlayView.swift */; };
+		63540B582805C5E800862CEF /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63540B562805C5E800862CEF /* PlayView.swift */; };
+		63E7E276280038AA00D5B751 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E7E275280038AA00D5B751 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63168D8727F726F8006DAD81 /* TotalledApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalledApp.swift; sourceTree = "<group>"; };
+		63168D8827F726F8006DAD81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63168D8927F726FB006DAD81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63168D8E27F726FB006DAD81 /* Totalled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Totalled.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63168D9427F726FB006DAD81 /* Totalled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Totalled.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63168D9627F726FB006DAD81 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		63168DA527F73244006DAD81 /* SingleGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleGameView.swift; sourceTree = "<group>"; };
+		63168DA827F7519E006DAD81 /* ProfilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesView.swift; sourceTree = "<group>"; };
+		63168DAB27F751F4006DAD81 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		6323F54928181F310059A1EC /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		63540B562805C5E800862CEF /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		63E7E275280038AA00D5B751 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63168D8B27F726FB006DAD81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63168D9127F726FB006DAD81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63168D8127F726F8006DAD81 = {
+			isa = PBXGroup;
+			children = (
+				6323F54928181F310059A1EC /* Frame.swift */,
+				63E7E275280038AA00D5B751 /* Player.swift */,
+				63168D8627F726F8006DAD81 /* Shared */,
+				63168D9527F726FB006DAD81 /* macOS */,
+				63168D8F27F726FB006DAD81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63168D8627F726F8006DAD81 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				63168D8727F726F8006DAD81 /* TotalledApp.swift */,
+				63168D8827F726F8006DAD81 /* ContentView.swift */,
+				63168D8927F726FB006DAD81 /* Assets.xcassets */,
+				63168DA527F73244006DAD81 /* SingleGameView.swift */,
+				63168DA827F7519E006DAD81 /* ProfilesView.swift */,
+				63168DAB27F751F4006DAD81 /* StatsView.swift */,
+				63540B562805C5E800862CEF /* PlayView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		63168D8F27F726FB006DAD81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63168D8E27F726FB006DAD81 /* Totalled.app */,
+				63168D9427F726FB006DAD81 /* Totalled.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63168D9527F726FB006DAD81 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				63168D9627F726FB006DAD81 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63168D8D27F726FB006DAD81 /* Totalled (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63168D9F27F726FB006DAD81 /* Build configuration list for PBXNativeTarget "Totalled (iOS)" */;
+			buildPhases = (
+				63168D8A27F726FB006DAD81 /* Sources */,
+				63168D8B27F726FB006DAD81 /* Frameworks */,
+				63168D8C27F726FB006DAD81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Totalled (iOS)";
+			productName = "Totalled (iOS)";
+			productReference = 63168D8E27F726FB006DAD81 /* Totalled.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63168D9327F726FB006DAD81 /* Totalled (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63168DA227F726FB006DAD81 /* Build configuration list for PBXNativeTarget "Totalled (macOS)" */;
+			buildPhases = (
+				63168D9027F726FB006DAD81 /* Sources */,
+				63168D9127F726FB006DAD81 /* Frameworks */,
+				63168D9227F726FB006DAD81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Totalled (macOS)";
+			productName = "Totalled (macOS)";
+			productReference = 63168D9427F726FB006DAD81 /* Totalled.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63168D8227F726F8006DAD81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					63168D8D27F726FB006DAD81 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					63168D9327F726FB006DAD81 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 63168D8527F726F8006DAD81 /* Build configuration list for PBXProject "Totalled" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63168D8127F726F8006DAD81;
+			productRefGroup = 63168D8F27F726FB006DAD81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63168D8D27F726FB006DAD81 /* Totalled (iOS) */,
+				63168D9327F726FB006DAD81 /* Totalled (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63168D8C27F726FB006DAD81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63168D9B27F726FB006DAD81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63168D9227F726FB006DAD81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63168D9C27F726FB006DAD81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63168D8A27F726FB006DAD81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63168DA927F7519E006DAD81 /* ProfilesView.swift in Sources */,
+				6323F54A28181F310059A1EC /* Frame.swift in Sources */,
+				63168DAC27F751F4006DAD81 /* StatsView.swift in Sources */,
+				63168D9927F726FB006DAD81 /* ContentView.swift in Sources */,
+				63540B572805C5E800862CEF /* PlayView.swift in Sources */,
+				63168DA627F73244006DAD81 /* SingleGameView.swift in Sources */,
+				63E7E276280038AA00D5B751 /* Player.swift in Sources */,
+				63168D9727F726FB006DAD81 /* TotalledApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63168D9027F726FB006DAD81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63540B582805C5E800862CEF /* PlayView.swift in Sources */,
+				63168DAA27F7519E006DAD81 /* ProfilesView.swift in Sources */,
+				63168DAD27F751F4006DAD81 /* StatsView.swift in Sources */,
+				63168D9A27F726FB006DAD81 /* ContentView.swift in Sources */,
+				63168DA727F73244006DAD81 /* SingleGameView.swift in Sources */,
+				63168D9827F726FB006DAD81 /* TotalledApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63168D9D27F726FB006DAD81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63168D9E27F726FB006DAD81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		63168DA027F726FB006DAD81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9AL95YRB5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MDApps.Totalled;
+				PRODUCT_NAME = Totalled;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63168DA127F726FB006DAD81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9AL95YRB5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MDApps.Totalled;
+				PRODUCT_NAME = Totalled;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63168DA327F726FB006DAD81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9AL95YRB5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MDApps.Totalled;
+				PRODUCT_NAME = Totalled;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63168DA427F726FB006DAD81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9AL95YRB5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MDApps.Totalled;
+				PRODUCT_NAME = Totalled;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63168D8527F726F8006DAD81 /* Build configuration list for PBXProject "Totalled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63168D9D27F726FB006DAD81 /* Debug */,
+				63168D9E27F726FB006DAD81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63168D9F27F726FB006DAD81 /* Build configuration list for PBXNativeTarget "Totalled (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63168DA027F726FB006DAD81 /* Debug */,
+				63168DA127F726FB006DAD81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63168DA227F726FB006DAD81 /* Build configuration list for PBXNativeTarget "Totalled (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63168DA327F726FB006DAD81 /* Debug */,
+				63168DA427F726FB006DAD81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63168D8227F726F8006DAD81 /* Project object */;
+}
